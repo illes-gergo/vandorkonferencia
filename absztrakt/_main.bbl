@@ -223,6 +223,55 @@
       \field{pages}{30681\bibrangedash 30691}
       \range{pages}{11}
     \endentry
+    \entry{ravi2014limitations}{article}{}
+      \name{author}{5}{}{%
+        {{hash=2c3d375505b0a2ed2b2d3a06b61634c0}{%
+           family={Ravi},
+           familyi={R\bibinitperiod},
+           given={Koustuban},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c23de70107007808aaf9b23b17481fee}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={W\bibnamedelima Ronny},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c661ace2e705935fcd59dba62f4ecab1}{%
+           family={Carbajo},
+           familyi={C\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e35dd8180098061423d82a2d8bf55ab1}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xiaojun},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8d3d0f621027d7ab10b0039670e871b7}{%
+           family={Kärtner},
+           familyi={K\bibinitperiod},
+           given={Franz},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{9922269f3327d286cad70175860674e4}
+      \strng{fullhash}{094174d4f198f15de0dc9faf52245d8b}
+      \strng{bibnamehash}{094174d4f198f15de0dc9faf52245d8b}
+      \strng{authorbibnamehash}{094174d4f198f15de0dc9faf52245d8b}
+      \strng{authornamehash}{9922269f3327d286cad70175860674e4}
+      \strng{authorfullhash}{094174d4f198f15de0dc9faf52245d8b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics express}
+      \field{number}{17}
+      \field{title}{Limitations to THz generation by optical rectification using tilted pulse fronts}
+      \field{volume}{22}
+      \field{year}{2014}
+      \field{pages}{20239\bibrangedash 20251}
+      \range{pages}{13}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -38,12 +38,17 @@ $^*$ illesg@gamma.ttk.pte.hu}
 Az optikai terahertzes források fejlődésével lehetőség nyílt arra, hogy 1 mJ nagyságrendű impulzusenergiákat állítsunk elő \cite{wu20201}. Ezt az impulzusenergiát a döntött impulzusfrontú gerjesztés módszerét \cite{hebling2002velocity} használva sikerült elérni. Azonban a döntött impulzusfrontú gerjesztés módszerének számos korlátozó tényezője van. Az első, hogy a kristály nagy ékszöggel rendelkezik, a második, hogy a nagy impulzusfront-döntés következtében a pumpaimpulzus nagymértékű szögdiszperzióval rendelkezik, a harmadik pedig, hogy az elrendezésben használt leképző rendszer nem tökéletes, leképzési hibák keletkeznek. Ezen hibák enyhítésére lehetőséget ad a hátoldali reflexiós elrendezés \cite{krizsan2020lithium,toth2019single}. A Pécsi Terahertzes kutatócsoport már végzett számításokat az elrendezésen, azonban az akkor használt modell nem vette figyelembe a terahertzes impulzus visszahatását a pumpaimpulzusra.
 \end{abstract}
 \onehalfspace
-A reflexiós echelon elrendezés sematikus ábráját az 1. ábra mutatja.
+\section{Az elrendezés vázlata}
+A hátoldali reflexiós echelon elrendezés sematikus ábráját az 1. ábra mutatja be.
 \begin{figure}[H]
 \centering
-\includegraphics[scale=•]{•}
+\includegraphics[width=0.7\textwidth]{rajz-1.pdf}
+\caption{A hátoldali reflexiós echelon sematikus ábrája \cite{toth2019single}}
 \end{figure}
-\section{Az elrendezés bemutatása}
+Az elrendezés úgy működik, hogy a pumpaimpulzus a kristályra merőlegesen lép be, majd a kristály hátoldalához érve, a megmunkált felületen diffraktálódik. Ezen megmunkálásnak olyannak kell lennie, diffrakció következtében a kialakuló impulzusfrontdöntés megfeleljen a sebességillesztési feltételnek \cite{hebling2002velocity}. Amennyiben ez teljesül úgy hatékonyan fog keletkezni a terahertzes (továbbiakban THz-es) impulzus. Az keletkező THz-es impulzus a kristály belépő felületén fog távozni, haladási iránya pedig merőleges lesz erre a felületre, aminek következtében nagy hatásfokú lesz a kicsatolás. 
+\section{Numerikus modell}
+A számítások olyan numerikus modellel készültek amelyek figyelembe veszik a THz-es impulzus visszahatását a pumpaimpulzusra \cite{ravi2014limitations}. A döntött impulzusfrontú gerjesztési technika modellezésénél azt tapasztaltuk, hogy a visszahatás következtében nagy mértékben csökken az elérhető maximális térerősséget, valamint azt, hogy azon kristályhossz ahol a hatásfok maximális rövidebb lesz. További számolások során megállapítottuk, hogy a maximális hatásfokhoz tartozó kristályhosszt túllépve a THz-es impulzus megszűnik egyciklusúnak, a térerősségének maximuma nagymértékben csökken és ezáltal használhatatlanná válik. Az itt bemutatott eredményeket a \cite{ravi2014limitations}-ben bemutatott modell módosított változatával kaptuk.
+\section{Eredmények}
 \singlespace
 \printbibliography[title = Irodalomjegszék]
 \end{document}
