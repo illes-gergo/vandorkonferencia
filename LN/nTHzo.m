@@ -1,9 +1,10 @@
 %LN kirstály fázistörésmutatója
 
-function [ nTHz ] = nTHzo(omega,Nc)
-%nu = omega/2/pi/3e8*1e-2; %[nu] = 1/cm
-%nTHz = real(9.09+2.06*363.4^2./(363.4^2-nu.^2-2*1i*0.55*nu));
-
-nTHz = real(sqrt(er(omega,Nc)));
+function [ nTHz ] = nTHzo( omega, T)
+if T == 100
+    nTHz = 4.69732-0.03006e-12*omega/2/pi+0.04066e-24*(omega/2/pi).^2;
+elseif T == 300
+    nTHz = 4.91372-0.01747e-12*omega/2/pi+0.04004e-24*(omega/2/pi).^2;
+end;
 end
 

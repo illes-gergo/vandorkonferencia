@@ -1,17 +1,21 @@
-%GaP tˆrÈsmutatÛja
+%LN krist√°ly t√∂r√©smutat√≥ja Sellmeier m√≥dszerrel
 
-function [ n ] = neo(lambda)
-l = lambda*1e6;
-a1 = 1.39;
-a2 = 0.172;
-b1 = 4.131;
-b2 = 0.234;
-c1 = 2.57;
-c2 = 0.345;
-d1 = 2.056;
-d2 = 27.52;
+function [ n ] = neo(lambda,T)
+lambda1 = lambda*1e6;
+a1 = 5.078;
+a2 = 0.0964;
+a3 = 0.2065;
+a4 = 61.16;
+a5 = 10.55;
+a6 = 1.59e-2;
+b1 = 4.677e-7;
+b2 = 7.822e-8;
+b3 = -2.653e-8;
+b4 = 1.096e-4;
+T = T-273;
+f = (T-24.5)*(T+570.82);
 
-n = sqrt(1+a1*l.^2./(l.^2-a2^2)+b1*l.^2./(l.^2-b2^2)+c1*l.^2./(l.^2-c2^2)+d1*l.^2./(l.^2-d2^2));
+n = sqrt(a1+b1*f+(a2+b2*f)./(lambda1.^2-(a3+b3*f)^2)+(a4+b4*f)./(lambda1.^2-a5^2)-a6*lambda1.^2);
 
 end
 

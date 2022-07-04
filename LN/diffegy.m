@@ -6,7 +6,7 @@ hv = 6.626e-34/2/pi; %J*s
 %beta2 = 0.05e-13; %m^2/W
 e0 = 8.8541878e-12; %As/Vm
 % lambda0 = 1031.8e-9;   %m
-% N = 2*1e4;    %db
+% c = 2*1e4;    %db
 % tau = 150e-15;  %s
 % I0 = 20e1/tau;    %GW/cm^2
 % khi_eff =  360e-12; %pm/V;
@@ -56,10 +56,10 @@ Aop = A_kompozit(1,:,2);
 global Nc;
 global kdz;
 %Nc = [Nc beta2*e0^2*c^2*neo(2*pi*c/omega0)^2*sum(abs(ifft(Aop.*exp(-1i*k_omega*z)*2*pi/dt)).^4)/2/h/omega0*dt]
-k_OMEGA = real(omega.*nTHzo(omega,Nc(end))/c);
+k_OMEGA = real(omega.*nTHzo(omega,T)/c);
 
 
-It = e0/2*c*neo(2*pi*c/omega0)*abs(ifftshift(ifft(Aop.*exp(-1i*(k_omega-k_omega0)*z)*2*pi/dt))).^2;
+It = e0/2*c*neo(2*pi*c/omega0,T)*abs(ifftshift(ifft(Aop.*exp(-1i*(k_omega-k_omega0)*z)*2*pi/dt))).^2;
 Nt = beta4*cumsum(It.^4)*dt/4/hv/omega0;
 %At = ifftshift(ifft(Aop.*exp(-1i*(1*(k_omega-k_omega0)*z))))*2*pi/dt;
 ITHzt = abs(ifftshift(ifft(ATHz.*exp(-1i*(kdz+k_OMEGA*dz)+1i*k_OMEGA0*z)))).^2;
@@ -89,7 +89,7 @@ end;
 %return;
 %THz_dur = dt*(i2-i1);
 %sulyozott = sum(ATHzt(i1:i2).*It(i1:i2).^4)/(i2-i1)
-Nc = [Nc Neff+8e20];
+%Nc = [Nc Neff+8e20];
 
 %At2 = ifftshift(ifft(Aop))*omegaMAX;
 %    It2 = e0/2*c*abs(At2).^2;
@@ -103,7 +103,7 @@ Nc = [Nc Neff+8e20];
 
 %k_OMEGA = real(omega.*nTHzo(omega,Nc(end))/c);
 
-abszorpcio = 2*omega/c.*imag(sqrt(er(omega,Nc(end))));
+abszorpcio = aTHzo(omega,T);
 
 temp1 = zeros(size(ATHz));
 [~,I] = max(abs(Aop));

@@ -1,0 +1,229 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{wu20201}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=e35dd8180098061423d82a2d8bf55ab1}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xiaojun},
+           giveni={X\bibinitperiod}}}%
+        {{hash=6f6a668d0bd5d3cde24a54e551ff0fed}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Baolong},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3388cb18f2fe1398f180651a7bf2e6e8}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jinglong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fe47db6de0754e9b037057f71287a1d8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yutong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{162260e0ca02bbdd32cea0b2eb572443}
+      \strng{fullhash}{0095e33fd04a2bad37c4132cb8a66e68}
+      \strng{bibnamehash}{0095e33fd04a2bad37c4132cb8a66e68}
+      \strng{authorbibnamehash}{0095e33fd04a2bad37c4132cb8a66e68}
+      \strng{authornamehash}{162260e0ca02bbdd32cea0b2eb572443}
+      \strng{authorfullhash}{0095e33fd04a2bad37c4132cb8a66e68}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 45th International Conference on Infrared, Millimeter, and Terahertz Waves (IRMMW-THz)}
+      \field{title}{1.4 mJ High Energy THz Radiation from Lithium Niobates}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+    \endentry
+    \entry{hebling2002velocity}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c528b99b98f03d1228522aaa42b4bed4}{%
+           family={Hebling},
+           familyi={H\bibinitperiod},
+           given={Janos},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b071e2aa6cf26f14fde588757cf4dbfd}{%
+           family={Almasi},
+           familyi={A\bibinitperiod},
+           given={Gabor},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ac0bcbe951828458b3a7bce70040bba3}{%
+           family={Kozma},
+           familyi={K\bibinitperiod},
+           given={Ida\bibnamedelima Z},
+           giveni={I\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=cac7e64d647314653371755d44683c10}{%
+           family={Kuhl},
+           familyi={K\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{f307b16c584d8fd9ca3009e7cd65742d}
+      \strng{fullhash}{7aa2ab51d8278cf47751a7534e5211de}
+      \strng{bibnamehash}{7aa2ab51d8278cf47751a7534e5211de}
+      \strng{authorbibnamehash}{7aa2ab51d8278cf47751a7534e5211de}
+      \strng{authornamehash}{f307b16c584d8fd9ca3009e7cd65742d}
+      \strng{authorfullhash}{7aa2ab51d8278cf47751a7534e5211de}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics Express}
+      \field{number}{21}
+      \field{title}{Velocity matching by pulse front tilting for large-area THz-pulse generation}
+      \field{volume}{10}
+      \field{year}{2002}
+      \field{pages}{1161\bibrangedash 1166}
+      \range{pages}{6}
+    \endentry
+    \entry{krizsan2020lithium}{article}{}
+      \name{author}{6}{}{%
+        {{hash=d37ba16734dc721f0f2da2f5ef50682b}{%
+           family={Krizsán},
+           familyi={K\bibinitperiod},
+           given={Gergö},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6c92cfe9298440b16ba5c8c286de664a}{%
+           family={Tibai},
+           familyi={T\bibinitperiod},
+           given={Zoltán},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=016c05d7994fbf587a2f0dea487b4d05}{%
+           family={Hebling},
+           familyi={H\bibinitperiod},
+           given={János},
+           giveni={J\bibinitperiod}}}%
+        {{hash=704da0f42a90455cb3f6e01b8fd94a6d}{%
+           family={Pálfalvi},
+           familyi={P\bibinitperiod},
+           given={László},
+           giveni={L\bibinitperiod}}}%
+        {{hash=75ae02039279cd79aa3db1c17acb1777}{%
+           family={Almási},
+           familyi={A\bibinitperiod},
+           given={Gábor},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2962b84a81e12d57ab00e00d7c5e044f}{%
+           family={Tóth},
+           familyi={T\bibinitperiod},
+           given={György},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{5093e9418ab3b4e6b5b1e9835d723329}
+      \strng{fullhash}{a1bbf6b25dd1dafb96e54fb8a6cb0ad7}
+      \strng{bibnamehash}{a1bbf6b25dd1dafb96e54fb8a6cb0ad7}
+      \strng{authorbibnamehash}{a1bbf6b25dd1dafb96e54fb8a6cb0ad7}
+      \strng{authornamehash}{5093e9418ab3b4e6b5b1e9835d723329}
+      \strng{authorfullhash}{a1bbf6b25dd1dafb96e54fb8a6cb0ad7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics Express}
+      \field{number}{23}
+      \field{title}{Lithium niobate and lithium tantalate based scalable terahertz pulse sources in reflection geometry}
+      \field{volume}{28}
+      \field{year}{2020}
+      \field{pages}{34320\bibrangedash 34327}
+      \range{pages}{8}
+    \endentry
+    \entry{toth2019single}{article}{}
+      \name{author}{8}{}{%
+        {{hash=2962b84a81e12d57ab00e00d7c5e044f}{%
+           family={Tóth},
+           familyi={T\bibinitperiod},
+           given={György},
+           giveni={G\bibinitperiod}}}%
+        {{hash=704da0f42a90455cb3f6e01b8fd94a6d}{%
+           family={Pálfalvi},
+           familyi={P\bibinitperiod},
+           given={László},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6c92cfe9298440b16ba5c8c286de664a}{%
+           family={Tibai},
+           familyi={T\bibinitperiod},
+           given={Zoltán},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c22e0407c862d1f5a2c3a3c0bce3af2b}{%
+           family={Tokodi},
+           familyi={T\bibinitperiod},
+           given={Levente},
+           giveni={L\bibinitperiod}}}%
+        {{hash=92293c492051a5acc81a4e2d79204892}{%
+           family={Fülöp},
+           familyi={F\bibinitperiod},
+           given={József\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f617252b2b6eca4f48dab3a9e91c1566}{%
+           family={Márton},
+           familyi={M\bibinitperiod},
+           given={Zsuzsanna},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=75ae02039279cd79aa3db1c17acb1777}{%
+           family={Almási},
+           familyi={A\bibinitperiod},
+           given={Gábor},
+           giveni={G\bibinitperiod}}}%
+        {{hash=016c05d7994fbf587a2f0dea487b4d05}{%
+           family={Hebling},
+           familyi={H\bibinitperiod},
+           given={János},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{bcf1621a9ec2e7fd7475b3012aa948be}
+      \strng{fullhash}{7eb12b646a1fb836d52baa4c2a1bf3ed}
+      \strng{bibnamehash}{bcf1621a9ec2e7fd7475b3012aa948be}
+      \strng{authorbibnamehash}{bcf1621a9ec2e7fd7475b3012aa948be}
+      \strng{authornamehash}{bcf1621a9ec2e7fd7475b3012aa948be}
+      \strng{authorfullhash}{7eb12b646a1fb836d52baa4c2a1bf3ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics Express}
+      \field{number}{21}
+      \field{title}{Single-cycle scalable terahertz pulse source in reflection geometry}
+      \field{volume}{27}
+      \field{year}{2019}
+      \field{pages}{30681\bibrangedash 30691}
+      \range{pages}{11}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
