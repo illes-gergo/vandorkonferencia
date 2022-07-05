@@ -1,0 +1,19 @@
+GaAs-ben történő THz-keltés 1 pumpáló impulzussal beamletekkel
+
+Pumpa hullámhossza: 1800.00 
+Pumpa döntése:  22.51° 
+Beamlet döntése:  11.47° 
+Pumpa FL intenzitása:  12.50 GW/cm^2
+Pumpa FL félértékszélessége: 100.00 fs
+Kristály anyaga: GaP
+Fázisillesztési frekvencia (periodikus polarizációval):   3.00 THz
+Kristályhossz:   6.00 mm
+Pumpa fázis törésmutatója 1800.00 nm-es hullámhosszon: 3.0437
+Pumpa csoport törésmutatója 1800.00 nm-es hullámhosszon: 3.1080
+THz fázis törésmutatója   3.00 THz-es frekvencián: 3.3643
+Nemlineáris szuszceptibilitás (Chi_eff):  49.60 pm/V
+
+Térbeli lépések száma: 409 (dz = 14.6727456.2 um)
+Spektrális felbontás: 20000 (d_nu = 40.0000006.2 GHz)
+Spektrális tartomány: (Nu_max=) Időbeli felbontás: 20000 (d_t = 1.2500006.2 fs)
+Időbeli tartomány: (T_max=) Számítás időpontja: 05-Jul-2022_14.51.27

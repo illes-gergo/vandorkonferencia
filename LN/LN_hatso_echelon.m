@@ -25,7 +25,7 @@ nu0 = 0.5*1e12;
 z_vegso = 6*1e-3;
 T = 300;    %K
 beta4 = 0*2.6e-4*1e-37;
-dz = 50*1e-6;
+dz = 10*1e-6;
 omegaMAX = 2*pi*1e12*800;
 N = 2e4;
 simp = 700;
@@ -154,6 +154,7 @@ v6_fgv =@(z,A_kompozit) diffegy(z,A_kompozit,omega,T,k_omega,k_OMEGA,khi_eff,dnu
 %    % Aop = Aop.*exp(-1i*GDz*ngp0/c0/2*(omega-0*omega0));
 % 
 %     Aop = Aop.*exp(1i*GDz/2);
+A_contain = zeros([length(z),length(omega),2]);
 
 for ii = 1:length(z)
 A_komp(1,:,1) = ATHz;
@@ -163,11 +164,12 @@ A_komp(1,:,2) = Aop;
 [z2,A_komp] = RK4_M(v6_fgv,dz,(ii-1)*dz,A_komp,(ii+0.1)*dz);
 
 Nc2(ii) = Nc(end); %lépésenként a szabad töltéshordozók száma
-kdz = 0;%kdz+real(omega.*nTHzo(omega,Nc(end))/c)*dz;
+%kdz = kdz%+real(omega.*nTHzo(omega,Nc(end))/c)*dz;
 ATHz = A_komp(2,:,1).';
 Aop = A_komp(2,:,2).';
 clear A_komp;
-
+A_contain(ii,:,1) = ATHz;
+A_contain(ii,:,2) = Aop;
 effic(ii) = sum(abs(ATHz).^2.*FI.')/pF ;
 %% kirajzolÃ¡s
 subplot(2,3,1)

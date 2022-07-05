@@ -1,6 +1,6 @@
 %% tisztogatás, könyvtár kiválasztás
 clc;clear all;close all;
-for JJ = 5:5
+%for JJ = 5:5
 
 %workdir = matlab.desktop.editor.getActiveFilename;
 %while workdir(end) ~= '\'
@@ -17,7 +17,7 @@ mkdir(dir_n);
 %D = xlsread('initial.xlsx');
 
 
-I0 = 2.5*JJ*1e13%2.5*JJ*1e13;%12.5*1e13;%.5*JJ*1e13;
+I0 = 2.5*5*1e13;%2.5*JJ*1e13;%12.5*1e13;%.5*JJ*1e13;
 tau = 100*1e-15;
 lambda0 = 1.800*1e-6;
 elochirp = 0*1e-3;
@@ -278,7 +278,7 @@ fclose(fileID);
  clearvars -except JJ Iev;
  close all;
  clc;
-end;
+%end;
 
 
 
