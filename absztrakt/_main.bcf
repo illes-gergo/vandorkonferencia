@@ -2357,11 +2357,15 @@
     <bcf:citekey order="6">hebling2002velocity</bcf:citekey>
     <bcf:citekey order="7">ravi2014limitations</bcf:citekey>
     <bcf:citekey order="8">ravi2014limitations</bcf:citekey>
-    <bcf:citekey order="9">wu20201</bcf:citekey>
-    <bcf:citekey order="10">hebling2002velocity</bcf:citekey>
-    <bcf:citekey order="11">krizsan2020lithium</bcf:citekey>
-    <bcf:citekey order="12">toth2019single</bcf:citekey>
-    <bcf:citekey order="13">ravi2014limitations</bcf:citekey>
+    <bcf:citekey order="9">zhang2017extreme</bcf:citekey>
+    <bcf:citekey order="10">nanni2015terahertz</bcf:citekey>
+    <bcf:citekey order="11">wu20201</bcf:citekey>
+    <bcf:citekey order="12">hebling2002velocity</bcf:citekey>
+    <bcf:citekey order="13">krizsan2020lithium</bcf:citekey>
+    <bcf:citekey order="14">toth2019single</bcf:citekey>
+    <bcf:citekey order="15">ravi2014limitations</bcf:citekey>
+    <bcf:citekey order="16">zhang2017extreme</bcf:citekey>
+    <bcf:citekey order="17">nanni2015terahertz</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

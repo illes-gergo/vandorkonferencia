@@ -272,6 +272,109 @@
       \field{pages}{20239\bibrangedash 20251}
       \range{pages}{13}
     \endentry
+    \entry{zhang2017extreme}{article}{}
+      \name{author}{3}{}{%
+        {{hash=26768718a02ec5330b2392b8a15f7262}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xi\bibnamedelima Cheng},
+           giveni={X\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ff45344436bd6b81e973b07d3fa2a27b}{%
+           family={Shkurinov},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=28f91f3a4b62ce57b7a533e742e8aae1}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{64506d1d382ec7da545e6f86df008364}
+      \strng{fullhash}{30eb6af1979c4597047954cf4a1c329e}
+      \strng{bibnamehash}{30eb6af1979c4597047954cf4a1c329e}
+      \strng{authorbibnamehash}{30eb6af1979c4597047954cf4a1c329e}
+      \strng{authornamehash}{64506d1d382ec7da545e6f86df008364}
+      \strng{authorfullhash}{30eb6af1979c4597047954cf4a1c329e}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Photonics}
+      \field{number}{1}
+      \field{title}{Extreme terahertz science}
+      \field{volume}{11}
+      \field{year}{2017}
+      \field{pages}{16\bibrangedash 18}
+      \range{pages}{3}
+    \endentry
+    \entry{nanni2015terahertz}{article}{}
+      \name{author}{8}{}{%
+        {{hash=98b8c68ef41ff4bcc4d2a97f499cc841}{%
+           family={Nanni},
+           familyi={N\bibinitperiod},
+           given={Emilio\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=dcba0130c4e2d789cf88c8a2119b8292}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Wenqian\bibnamedelima R},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=fc85804dc7824ab2e44aead25df0aaa0}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Kyung-Han},
+           giveni={K\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=2c3d375505b0a2ed2b2d3a06b61634c0}{%
+           family={Ravi},
+           familyi={R\bibinitperiod},
+           given={Koustuban},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c6818b07c85c3fe412d8695b5a853152}{%
+           family={Fallahi},
+           familyi={F\bibinitperiod},
+           given={Arya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2831d42f5ded45cf68687064e07a041f}{%
+           family={Moriena},
+           familyi={M\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f5543524ff75cb5f4805374c509b3bcf}{%
+           family={Dwayne\bibnamedelima Miller},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={RJ},
+           giveni={R\bibinitperiod}}}%
+        {{hash=184e4bf6340bab78a5b563aa627d7189}{%
+           family={Kärtner},
+           familyi={K\bibinitperiod},
+           given={Franz\bibnamedelima X},
+           giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{05a05d963d8357d7471e69fbfdeb650e}
+      \strng{fullhash}{b284c727ac9d2afe40d0a09839ad8f4b}
+      \strng{bibnamehash}{05a05d963d8357d7471e69fbfdeb650e}
+      \strng{authorbibnamehash}{05a05d963d8357d7471e69fbfdeb650e}
+      \strng{authornamehash}{05a05d963d8357d7471e69fbfdeb650e}
+      \strng{authorfullhash}{b284c727ac9d2afe40d0a09839ad8f4b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature communications}
+      \field{number}{1}
+      \field{title}{Terahertz-driven linear electron acceleration}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
